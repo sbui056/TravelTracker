@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <form class="tripForm">
+            <h2>Add an Activity</h2>
+
+            <p>What fun things did you do on your trip? Sky-diving? Hiking? Kayaking?</p>
+
+            <label>Choose your trip:</label>
+            <select id="trip" name="trip" required>
+                <option>Select a trip</option>
+                <option> trip1 </option>
+                <option> trip2 </option>
+            </select>
+
+            <label>Activity:</label>
+            <input type="text" id="activity" name="activity" required>
+
+
+            <label>Rating (1–5):</label>
+            <select id="rating" name="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label>Review:</label>
+            <textarea id="review" name="review" rows="4"></textarea>
+
+            <button type="submit">Add Activity</button>
+        </form>
+    </div>
+    
+</body>
+</html>
